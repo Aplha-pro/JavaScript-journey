@@ -1,0 +1,1 @@
+* According to the Document Object Model (DOM), every HTML tag is an object. Nested tags are “children” of the enclosing one.
