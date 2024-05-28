@@ -9,13 +9,19 @@
 <body>
     <div>
         <h1 id="heading-1">Welcome to my webpage!</h1>
-        <p id = "para-1">This is a simple example of HTML and DOM manipulation.</p>
+        <p class = "para-1">This is a simple example of HTML and DOM manipulation.</p>
     </div>
 
     <script>
         let heading = document.getElementById('heading-1');
-        //console.log(heading);
-        console.dir(heading)
+        let classname = document.getElementsByClassName('para-1');
+        
+        console.log(heading);
+        console.dir(heading);
+
+        console.log(classname);
+        console.dir(classname);
+
     </script>
 </body>
 </html>
