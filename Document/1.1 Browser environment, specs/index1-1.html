@@ -13,13 +13,19 @@
         function myfunc(){
             alert("You're done with task 1");
         }
-        //myfunc();
-        //alert("Height is: " + window.innerHeight)
-        //alert("Width is: " + window.innerWidth)
+        myfunc();
+        alert("Height is: " + window.innerHeight);
+        alert("Width is: " + window.innerWidth);
 
         // DOM (Document Object Model)
         document.body.style.background = "red";
-        setTimeout(() => document.body.style.background = "",1000)
+        setTimeout(() => document.body.style.background = "",1000);
+
+        //BOM
+        alert(location.href);
+        if(confirm("Go to wikipedia site")){
+            location.href = 'https://wikipedia.org';
+        }
     </script>
 </body>
 </html>

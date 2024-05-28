@@ -13,3 +13,4 @@
 
 ## BOM (Browser Object Model)
 * It represents additional objects provided by the browser (host environment) for working with everything except the document.
+* The functions `alert/confirm/prompt` are also a part of the BOM: they are not directly related to the document, but represent pure browser methods for communicating with the user.
