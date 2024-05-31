@@ -42,3 +42,6 @@ newh1.classList.add('newh1');
 
 document.querySelector('body').prepend(newh1);
 
+// we can also remove it
+let rm = document.querySelector('h1');
+rm.remove();
