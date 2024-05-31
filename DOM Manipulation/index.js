@@ -34,5 +34,11 @@ newBtn.classList.add('js-button');
 let div2 = document.querySelectorAll('.box');
 console.log(div2[1]);
 
-div2[1].after(newBtn)
+div2[1].after(newBtn);
+
+let newh1 = document.createElement('h1');
+newh1.innerHTML = "<strong><i>Hey, I am new</i></strong>";
+newh1.classList.add('newh1');
+
+document.querySelector('body').prepend(newh1);
 
