@@ -19,3 +19,6 @@ divs[0].innerText = "Div-1 Updated";
 divs[1].innerText = "Div-2 Updated";
 divs[2].innerText = "Div-3 Updated";
 console.log(divs);
+
+let attr = document.querySelector('p');
+console.log(attr.getAttribute('class'));
