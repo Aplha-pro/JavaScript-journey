@@ -4,3 +4,6 @@
 
 let btn = document.createElement('button');
 btn.innerText = 'click me';
+
+btn.style.background = 'red';
+btn.style.color = 'white';
