@@ -6,3 +6,13 @@ body{
     text-align: center;
     background-color: blueviolet;
 }
+
+.box{
+    height: 100px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 5px;
+    text-align: center;
+    background-color: aquamarine;
+    /*padding-top: 20px*/;
+}
