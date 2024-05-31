@@ -19,6 +19,12 @@
 - `getAttribute(att)`  
 - `setAttribute(attr,value)`  
 
+## We can also add element using JS  
+1- `node.append(element)`  
+2- `node.prepend(element)`  
+3- `node.before(element)`  
+4- `node.after(element)`  
+
 
 
 
