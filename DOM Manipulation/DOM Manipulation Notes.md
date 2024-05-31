@@ -8,7 +8,7 @@
 ### Selecting Elements with Tag
 `document.getElementByTagName('h1')`
 
-## We can access out HTML elements using following properties  
+## We can access our HTML elements using following properties:-  
 **tagName:** `return tag for element node`  
 **innerText:** `return the text content of the element and all its children`   
 **innerHTML:** `returns the plain text or HTML contents and all its children`  
