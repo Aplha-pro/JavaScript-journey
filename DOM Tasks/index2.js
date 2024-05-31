@@ -14,3 +14,5 @@ document.querySelector('body').prepend(btn);
 //Now create new class in CSS and try to append this class to the <p> element
 //Did you notice, how you overwrite the class name when you add a new one?
 //Solve this problem using classList.
+let para = document.getElementsByTagName('p');
+console.log(para);
