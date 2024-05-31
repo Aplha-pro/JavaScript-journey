@@ -16,3 +16,11 @@ body{
     background-color: aquamarine;
     /*padding-top: 20px*/;
 }
+
+.js-button{
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(15, 147, 147);
+    margin: 10px;
+}

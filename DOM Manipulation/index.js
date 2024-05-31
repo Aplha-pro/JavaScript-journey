@@ -23,3 +23,16 @@ console.log(divs);
 let attr = document.querySelector('p');
 console.log(attr.getAttribute('class'));
 console.log(attr.setAttribute('class','newPara'));
+
+// Adding element using JS
+let newBtn = document.createElement('button');
+newBtn.innerText = "click here";
+newBtn.classList.add('js-button');
+
+
+//add after my Div 2
+let div2 = document.querySelectorAll('.box');
+console.log(div2[1]);
+
+div2[1].after(newBtn)
+
