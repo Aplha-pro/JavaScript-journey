@@ -22,3 +22,4 @@ console.log(divs);
 
 let attr = document.querySelector('p');
 console.log(attr.getAttribute('class'));
+console.log(attr.setAttribute('class','newPara'));

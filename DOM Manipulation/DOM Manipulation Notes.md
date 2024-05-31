@@ -15,6 +15,7 @@
 **textChildren:** `return textual content even for hidden elements`
 
 ## We can also get or set attribute value  
+**attribute is key value pair e.g `class="smtng"`, here class is an attribute**  
 - `getAttribute(att)`  
 - `setAttribute(attr,value)`  
 
