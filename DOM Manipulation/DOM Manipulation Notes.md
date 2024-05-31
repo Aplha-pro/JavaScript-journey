@@ -14,5 +14,10 @@
 **innerHTML:** `returns the plain text or HTML contents and all its children`  
 **textChildren:** `return textual content even for hidden elements`
 
+## We can also get or set attribute value  
+- `getAttribute(att)`  
+- `setAttribute(attr,value)`  
+
+
 
 
