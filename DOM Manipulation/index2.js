@@ -2,3 +2,4 @@
 // color red and text white.
 // Note: Inset button as first element inside body tag
 
+let btn = document.createElement('button');
