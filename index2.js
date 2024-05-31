@@ -5,7 +5,7 @@
 let btn = document.createElement('button');
 btn.innerText = 'click me';
 
-btn.style.background = 'red';
+btn.style.backgroundColor = 'red';
 btn.style.color = 'white';
 
 document.querySelector('body').prepend(btn);
