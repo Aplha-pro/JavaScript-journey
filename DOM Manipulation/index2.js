@@ -3,3 +3,4 @@
 // Note: Inset button as first element inside body tag
 
 let btn = document.createElement('button');
+btn.innerText = 'click me';
